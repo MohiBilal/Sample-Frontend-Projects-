@@ -1,0 +1,132 @@
+.imgsizechange{
+    height: 130px;
+    width: 120px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.items{
+    background-color: white;
+    height: 230px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.item-details{
+    position: relative;
+    left: 900px;
+    bottom: 80px;
+}
+.discount{
+    color: green;
+    background-color: rgb(206, 253, 206);
+    padding: 4px 13px 4px 13px;
+    font-size: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
+}
+.shipping{
+    color: orange;
+    background-color: rgb(250, 228, 186);
+    padding: 4px 13px 4px 13px;
+    font-size: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
+}
+.title{
+    font-family: sans-serif;
+    font-size: 17px;
+    position: relative;
+    bottom: 10px;
+}
+.ammount{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.currency{
+    position: relative;
+    left: 75px;
+    bottom: 19px;
+    font-size: 12px;
+    color: rgb(126, 126, 126);
+    font-family: sans-serif;
+}
+.canceled-text{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgb(126, 126, 126);
+    display: inline;
+    position: relative;
+    left: 110px;
+    bottom: 37px;
+    text-decoration: line-through;
+}
+@media (min-width: 320px) and (max-width: 480px){
+
+    .imgsizechange{
+        height: 120px;
+        width: 110px;
+        left: 10px;
+        top: 7px;
+    }
+    .item-details{
+        left: 150px;
+        bottom: 105px;/*90px default*/
+    }
+    .items{
+        height: 130px;/*default 170px*/
+    }
+    .discount{
+        color: green;
+        background-color: rgb(206, 253, 206);
+        padding: 4px 13px 4px 13px;
+        font-size: 15px;
+        border-radius: 6px;
+        font-weight: bold;
+        position: relative;
+        bottom: 20px;
+    }
+    .shipping{
+        color: orange;
+        background-color: rgb(250, 228, 186);
+        padding: 4px 13px 4px 13px;
+        font-size: 15px;
+        border-radius: 6px;
+        font-weight: bold;
+        position: relative;
+        bottom: 20px;
+    }
+    .title{
+        font-family: sans-serif;
+        font-size: 17px;
+        position: relative;
+        bottom: 10px;
+    }
+    .ammount{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    .currency{
+        position: relative;
+        left: 75px;
+        bottom: 19px;
+        font-size: 12px;
+        color: rgb(126, 126, 126);
+        font-family: sans-serif;
+    }
+    .canceled-text{
+        font-size: 12px;
+        font-family: sans-serif;
+        color: rgb(126, 126, 126);
+        display: inline;
+        position: relative;
+        left: 110px;
+        bottom: 37px;
+        text-decoration: line-through;
+    }
+}
