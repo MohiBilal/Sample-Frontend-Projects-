@@ -4,11 +4,12 @@ import Item from './Components/Item/Item';
 
 
 
+
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Item/>
+      <Item icon = {logo} />
     </div>
   );
 }

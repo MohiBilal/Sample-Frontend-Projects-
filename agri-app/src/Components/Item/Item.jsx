@@ -1,11 +1,13 @@
 import React from 'react'
 import './Item.css'
+import logo from './headphones.jpg'
 
-export default function Item() {
+export default function Item(props) {
+    console.log("props",props)
     return (
         <div>
              <div class="items">
-        <img class="imgsizechange" src="headphones.jpg" alt=""></img>
+        <img class="imgsizechange" src={props.logo}></img>
         <div class="item-details">
             <p class="title">Lorem ipsum dolor, sit amet conse<br></br>ctetur adipisicing elit.</p>
             <p class="ammount">2799.00</p>
